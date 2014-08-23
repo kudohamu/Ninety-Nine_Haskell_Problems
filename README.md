@@ -16,7 +16,7 @@ Reference:[Ninety-Nine Haskell Problems](http://www.haskell.org/haskellwiki/H-99
   Find the last but one element of a list.  
   (Note that the Lisp transcription of this problem is incorrect.)  
   Example in Haskell:  
-  >Prelude＞myButLast [1,2,3,4]  
+  >Prelude> myButLast [1,2,3,4]  
   >3  
   >Prelude> myButLast ['a'..'z']  
   >'y'  
