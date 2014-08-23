@@ -42,4 +42,3 @@ Reference:[Ninety-Nine Haskell Problems](http://www.haskell.org/haskellwiki/H-99
   >Prelude> myLength "Hello, world!"  
   >13  
 
-
