@@ -259,3 +259,16 @@ Reference:[Ninety-Nine Haskell Problems](http://www.haskell.org/haskellwiki/H-99
   >Prelude> range 4 9  
   >[4,5,6,7,8,9]  
 
+23. Problem 23
+  Extract a given number of randomly selected elements from a list.
+
+  Example:
+  ```
+  * (rnd-select '(a b c d e f g h) 3)
+  (E D A)
+  ```
+
+  Example in Haskell:
+  >Prelude System.Random>rnd_select "abcdefgh" 3 >>= putStrLn
+  >eda
+
