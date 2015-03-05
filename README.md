@@ -272,3 +272,15 @@ Reference:[Ninety-Nine Haskell Problems](http://www.haskell.org/haskellwiki/H-99
   >Prelude System.Random>rnd_select "abcdefgh" 3 >>= putStrLn
   >eda
 
+24. Problem 24
+  Lotto: Draw N different random numbers from the set 1..M.
+
+  Example:
+  ```
+  * (diff-select 6 49)
+  (23 1 17 33 21 37)
+  ```
+
+  Example in Haskell:
+  >Prelude System.Random>diff_select 6 49
+  >Prelude System.Random>[23,1,17,33,21,37]
